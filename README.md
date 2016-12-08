@@ -14,9 +14,13 @@ Numpy is the fundamental package for scientific computing with python. it contai
 * useful linear algebra, Fourier transform, and random number capabilities
 
 The NumPy installation package can be found [here][6]. The names of intallation packages are follow the following rules:
+
 	cpxx_OperatingSystem_The architecture of CPU
+
 cpxx means the interpreter of python whose verison is python x.x is written by C. OperatingSystem can be Macoxsx,linux or win. The architecture of CPU can be x86, amd64 or i686.
+
 SciPy is open-source software for mathematics, science, and engineering. The SciPy library depends on NumPy.The SciPy library is built to work with NumPy arrays, and provides many user-friendly and efficient numerical routines for numerical integration and optimization. The rule of name of SciPy is similar to that of Numpy.
+
 So choose the version which is suitable for your computer and the interpreter of python.
 
 [1]: http://neuralnetworksanddeeplearning.com/
