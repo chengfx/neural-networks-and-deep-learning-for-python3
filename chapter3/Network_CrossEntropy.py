@@ -117,6 +117,8 @@ def sigmoid_prime(z):
     """Derivative of the sigmoid function."""
     return sigmoid(z)*(1-sigmoid(z))
 
+import sys
+sys.path.append("../")
 
 import mnist_loader
 training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
