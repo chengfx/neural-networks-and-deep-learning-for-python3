@@ -23,6 +23,11 @@ SciPy is open-source software for mathematics, science, and engineering. The Sci
 
 So choose the version which is suitable for your computer and the interpreter of python.
 
+##Modifying code samples for python 3.x
+Now we could make some changes for code samples in order to run our code samplesthrough python 3.x interpreter after some fundamental packages has been installed. The differences between files for python 2.x and python 3.0 will be listed below and some descriptions have been added for this changes.
+
+###[mnist_loader.py][8]
+
 [1]: http://neuralnetworksanddeeplearning.com/
 [2]: https://github.com/mnielsen/neural-networks-and-deep-learning
 [3]: https://www.python.org/downloads/
@@ -30,3 +35,4 @@ So choose the version which is suitable for your computer and the interpreter of
 [5]: http://www.numpy.org/
 [6]: https://pypi.python.org/pypi/numpy
 [7]: https://pypi.python.org/pypi/scipy
+[8]: ./mnist_loader.py
