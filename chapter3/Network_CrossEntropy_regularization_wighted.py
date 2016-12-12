@@ -10,7 +10,7 @@ class Network(object):
 		self.num_layers = len(sizes)  #the number of the layers in Network
 		self.sizes = sizes
 		self.biases = [np.random.randn(y,1) for y in sizes[1:]]
-		self.weights = [np.random.randn(y,x) 
+		self.weights = [np.random.randn(y,x) / np.sqrt(x)
 						for x,y in zip(sizes[:-1],sizes[1:])]
 
 	def feedforward(self,a):
