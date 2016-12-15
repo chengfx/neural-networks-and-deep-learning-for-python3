@@ -23,6 +23,11 @@ SciPy is open-source software for mathematics, science, and engineering. The Sci
 
 So choose the version which is suitable for your computer and the interpreter of python.
 
+##Installing matplotlib
+matplotlib is very easy to be installed in order to plot some figures using MATLAB syntax. The only thing you need to do is just type the following command in your bash
+
+	pip install matplotlib
+
 ##Modifying code samples for python 3.x
 Now we could make some changes for code samples in order to run our code samplesthrough python 3.x interpreter after some fundamental packages has been installed. The differences between files for python 2.x and python 3.0 will be listed below and some descriptions have been added for this changes.
 
