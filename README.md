@@ -56,6 +56,29 @@ The functions of [mnist_loader.py][8] file are load the training data, validatio
 
 Module cPickle is written by c for python 2.x and it has been cancelled in python 3.x. So we instead use statement "import pickle". The effects of module pickle are depend on the version of python. If we don't pass the encoding argument python 3.x will throw an exception. For Line 71,73,75 the only thing we need to do is just make a convertion. In python 3.x the object returned by zip() isn't a list. It is an object which returns the successive items of the desired sequence when we iterate over it. It doesn't really make the list, thus saving space. we say such an object is iterable, that is, suitable as a target for functions and constructs that expect something from which they can obtain successive items until the supply is exhausted. So such "len(iterable object)" is wrong and we have to convert it into a list using "list(len(iterable object))".
 
+###./chapter1_2/Network.py
+`xrange()` is removed in python 3.x, so in this file we need to replace all `xrange()` into `range()`.
+The differences between two versions are
+
+> [Line 35][14]:    for j in range(epochs):
+
+> Unmodified: for j in xrange(epochs):
+
+> [Line 38][15]:    for k in range(0, n, mini_batch_size)]
+
+> Unmodified: for k in xrange(0, n, mini_batch_size)]
+
+> [Line 90][16]:    for l in range(2, self.num_layers):
+
+> Unmodified: for l in xrange(2, self.num_layers):
+
+What's more, the syntax of 'print' in python3.x need to followed by a pair of parent parentheses.
+
+In the end of this file, I type some statements to run this network. So if you want to see the effect of this
+network, the only thing you just need to do is type the following command on your Bash.
+
+	python Network.py
+	
 
 [1]: http://neuralnetworksanddeeplearning.com/
 [2]: https://github.com/mnielsen/neural-networks-and-deep-learning
@@ -70,6 +93,9 @@ Module cPickle is written by c for python 2.x and it has been cancelled in pytho
 [11]: ./mnist_loader.py#L71
 [12]: ./mnist_loader.py#L73
 [13]: ./mnist_loader.py#L75
+[14]: ./chapter1_2/Network.py#L35
+[15]: ./chapter1_2/Network.py#L38
+[16]: ./chapter1_2/Network.py#L90
 
 
 
