@@ -28,6 +28,16 @@ matplotlib is very easy to be installed in order to plot some figures using MATL
 
 	pip install matplotlib
 
+##Installing Theano
+[Theano][17] is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.Teano features:
+
+* **tight integration with NumPy** - Use numpy.ndarray in Theano-compiled functions.
+* **transparent use of a GPU** - Perform data-intensive calculations up to 140x faster with CPU.
+* **efficient symbolic differentiation** – Theano does your derivatives for function with one or many inputs.**
+* **speed and stability optimizations** – Get the right answer for `log(1+x)` even when `x` is really tiny.
+* **dynamic C code generation** – Evaluate expressions faster.
+* **extensive unit-testing and self-verification** – Detect and diagnose many types of errors.
+
 ##Modifying code samples for python 3.x
 Now we could make some changes for code samples in order to run our code samplesthrough python 3.x interpreter after some fundamental packages has been installed. The differences between files for python 2.x and python 3.0 will be listed below and some descriptions have been added for this changes.
 
@@ -96,6 +106,7 @@ network, the only thing you just need to do is type the following command on you
 [14]: ./chapter1_2/Network.py#L35
 [15]: ./chapter1_2/Network.py#L38
 [16]: ./chapter1_2/Network.py#L90
+[17]: http://www.deeplearning.net/software/theano/
 
 
 
