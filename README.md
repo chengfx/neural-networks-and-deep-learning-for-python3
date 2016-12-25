@@ -43,6 +43,12 @@ matplotlib is very easy to be installed in order to plot some figures using MATL
 * **dynamic C code generation** – Evaluate expressions faster.
 * **extensive unit-testing and self-verification** – Detect and diagnose many types of errors.
 
+Type the following command on Bash to install Theano.
+
+	pip install theano
+	
+Before installing theano you should install numpy and scipy.
+
 ##Modifying code samples for python 3.x
 Now we could make some changes for code samples in order to run our code samplesthrough python 3.x interpreter after some fundamental packages has been installed. The differences between files for python 2.x and python 3.0 will be listed below and some descriptions have been added for this changes.
 
