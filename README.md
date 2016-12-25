@@ -23,6 +23,11 @@ SciPy is open-source software for mathematics, science, and engineering. The Sci
 
 So choose the version which is suitable for your computer and the interpreter of python.
 
+Unfortulately, it's diffcult for windows platform to install scipy. The binary executed file .whl is not supported for windows platform because some requirements for compiling scipy source files isn't supported on windows platform.
+So, one of some solutions to slove this problem is to install the packages of the SciPy statck. It's easy to search lots of informations on it online. But here I will provide another way
+to install scipy package. Christoph Gohlke provides [pre-built Windows installers][18] for many Python packages, including all of the core SciPy stack, which work extremely well.
+
+
 ##Installing matplotlib
 matplotlib is very easy to be installed in order to plot some figures using MATLAB syntax. The only thing you need to do is just type the following command in your bash
 
@@ -107,6 +112,6 @@ network, the only thing you just need to do is type the following command on you
 [15]: ./chapter1_2/Network.py#L38
 [16]: ./chapter1_2/Network.py#L90
 [17]: http://www.deeplearning.net/software/theano/
-
+[18]: http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 
